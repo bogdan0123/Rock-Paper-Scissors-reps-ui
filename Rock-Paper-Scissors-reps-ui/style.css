@@ -1,65 +1,83 @@
-        body {
-            background-color:#177e8e;
-        }
-        .container {
-            border: rgb(55, 170, 109) 1px solid;
-            width: auto;
-            margin-top: 10px;
-            display: flex;
-            justify-content: center;
-        }
+body {
+    background-color:#614b08c0;
+}
 
-        .banner {
-            width: auto;
-            height: 100px;
-            background-color: rgb(51, 83, 84);
-            color: white;
-            text-align: center;
-            border: solid rgb(50, 117, 217) 2px;
-        }
-        .scissors {
-            width: 130px;
-            height: 80px;
-            background-color: rgb(109, 210, 177);
-            border: solid rgb(13, 13, 13) 1px;
-            color: black;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: center;
-            padding-top: 50px;
-            padding-left: 20px;
-            padding-right: 20px;
-            margin: 3rem;
-            font-weight: 500;
-            font-size: 20px;
-            
-        }
-        .paper {
-            width: 130px;
-            height: 80px;
-            background-color: rgb(109, 210, 177);
-            border: solid rgb(13, 13, 13) 1px;
-            color: black;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: center;
-            padding-top: 50px;
-            padding-left: 20px;
-            padding-right: 20px;
-            margin: 3rem;
-            font-weight: 500;
-            font-size: 20px;
-        }
-        .stone {
-            width: 130px;
-            height: 80px;
-            background-color: rgb(109, 210, 177);
-            border: solid rgb(13, 13, 13) 1px;
-            color: black;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: center;
-            padding-top: 50px;
-            padding-left: 20px;
-            padding-right: 20px;
-            margin: 3rem;
-            font-weight: 500;
-            font-size: 20px;
-        }
+h1 {
+    text-align: center;
+    color:rgb(0, 0, 0)
+}
+
+#scissors {
+    width: 130px;
+    height: 80px;
+    background-color: rgb(109, 210, 177);
+    border: solid rgb(13, 13, 13) 1px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+     margin: 3rem;
+    font-weight: 500;
+    font-size: 20px;          
+}
+
+#paper {
+    width: 130px;
+    height: 80px;
+    background-color: rgb(109, 210, 177);
+    border: solid rgb(13, 13, 13) 1px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+     padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 3rem;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#rock{
+    width: 130px;
+    height: 80px;
+    background-color: rgb(109, 210, 177);
+    border: solid rgb(13, 13, 13) 1px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 3rem;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#scoreboard{
+    background-color: rgba(202, 168, 17, 0.781);
+    color: red;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+}
+
+#gameboard {
+    background-color: rgba(13, 46, 137, 0.568);
+    text-align: center;
+    
+}
+
+p {
+    color: aliceblue;
+    text-align: center;
+    font-size: 17px;
+}
+span {
+    color: rgb(115, 255, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
