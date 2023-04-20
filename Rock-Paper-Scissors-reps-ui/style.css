@@ -1,0 +1,65 @@
+        body {
+            background-color:#177e8e;
+        }
+        .container {
+            border: rgb(55, 170, 109) 1px solid;
+            width: auto;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .banner {
+            width: auto;
+            height: 100px;
+            background-color: rgb(51, 83, 84);
+            color: white;
+            text-align: center;
+            border: solid rgb(50, 117, 217) 2px;
+        }
+        .scissors {
+            width: 130px;
+            height: 80px;
+            background-color: rgb(109, 210, 177);
+            border: solid rgb(13, 13, 13) 1px;
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin: 3rem;
+            font-weight: 500;
+            font-size: 20px;
+            
+        }
+        .paper {
+            width: 130px;
+            height: 80px;
+            background-color: rgb(109, 210, 177);
+            border: solid rgb(13, 13, 13) 1px;
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin: 3rem;
+            font-weight: 500;
+            font-size: 20px;
+        }
+        .stone {
+            width: 130px;
+            height: 80px;
+            background-color: rgb(109, 210, 177);
+            border: solid rgb(13, 13, 13) 1px;
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin: 3rem;
+            font-weight: 500;
+            font-size: 20px;
+        }
