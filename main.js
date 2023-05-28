@@ -66,12 +66,12 @@ function game() {
       //reporting a winner or loser at the end of those 5 rounds
       if (playerScore === 5) {
         const p = document.createElement('span');
-        p.textContent = "Congratulations, you win the game!";
+        p.textContent = "Congratulations, you won the game!";
         resultsDiv.appendChild(p);
         disableButtons();
       } else if (computerScore === 5) {
         const p = document.createElement('span');
-        p.textContent = "Sorry, the computer wins the game!";
+        p.textContent = "Sorry, the computer won the game!";
         resultsDiv.appendChild(p);
         disableButtons();
       }

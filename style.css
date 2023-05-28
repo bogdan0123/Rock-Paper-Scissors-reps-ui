@@ -1,10 +1,10 @@
 body {
-    background-color:#614b08c0;
+    background-color:#04383c;
 }
 
 h1 {
     text-align: center;
-    color:rgb(0, 0, 0)
+    color: white;
 }
 
 #scissors {
@@ -18,9 +18,11 @@ h1 {
     padding-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
-     margin: 3rem;
+    margin: 3rem;
     font-weight: 500;
-    font-size: 20px;          
+    font-size: 20px;
+    border-radius: 10px;
+              
 }
 
 #paper {
@@ -31,12 +33,13 @@ h1 {
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-     padding-top: 50px;
+    padding-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 3rem;
     font-weight: 500;
     font-size: 20px;
+    border-radius: 10px;
 }
 
 #rock{
@@ -53,21 +56,26 @@ h1 {
     margin: 3rem;
     font-weight: 500;
     font-size: 20px;
+    border-radius: 10px;
 }
 
 #scoreboard{
-    background-color: rgba(202, 168, 17, 0.781);
-    color: red;
+    background-color: rgb(26, 202, 17);
+    height: 50px;
+    color: rgb(35, 5, 95);
     font-weight: bold;
+    font-size: 22px;
     display: flex;
     justify-content: space-evenly;
     height: 30px;
+    border-radius: 8px;
+    border: dotted 2px rgb(208, 255, 0);
 }
 
 #gameboard {
     background-color: rgba(13, 46, 137, 0.568);
     text-align: center;
-    
+    border-radius: 15px;
 }
 
 p {
